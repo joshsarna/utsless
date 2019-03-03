@@ -52,3 +52,9 @@ Alternatively, to return without printing:
 ```
 p Utsless::class_tree(3)  # => [3, Integer, Class]
 ```
+
+### Installation
+
+Gemfile: `gem 'utsless', '~> 0.0.3'`
+
+Install: `gem install utsless`
