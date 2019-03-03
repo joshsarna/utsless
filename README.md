@@ -12,9 +12,11 @@ puts([1, 2, 3])  # => [1, 2, 3]
 puts("")  # => ""
 ```
 
-### Printing Class Trees
+### Class Trees
 
 This functionality was added in Version 0.0.2.
+
+#### Print Class Trees
 
 ```
 Utsless::print_class_tree(3)
@@ -27,4 +29,26 @@ Output:
 Integer
 Class
 "*******************************************************************"
+```
+
+#### Return Class Trees
+
+```
+p Utsless::print_class_tree(3)
+```
+
+Output:
+
+```
+"************************* Class Tree of 3 *************************"
+Integer
+Class
+"*******************************************************************"
+[3, Integer, Class]
+```
+
+Alternatively, to return without printing:
+
+```
+p Utsless::class_tree(3)  # => [3, Integer, Class]
 ```
