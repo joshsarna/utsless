@@ -1,7 +1,7 @@
 Gem::Specification.new do |s|
   s.name        = 'utsless'
-  s.version     = '0.0.3'
-  s.date        = '2019-03-02'
+  s.version     = '0.0.5'
+  s.date        = '2019-03-04'
   s.summary     = "No more puts"
   s.description = "A gem that replaces every puts statement with a p statement at runtime"
   s.authors     = ["Josh Sarna"]
